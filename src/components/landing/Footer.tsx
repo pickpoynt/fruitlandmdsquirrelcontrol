@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">West Bloomfield Well Tank</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Replacement Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Fruitland MD Squirrel</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Control Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              West Bloomfield's rapid-response well tank replacement experts. We provide safe, professional pressure tank installation and diagnostics throughout West Bloomfield and Oakland County.
+              Fruitland's rapid-response squirrel control specialists. We provide safe, humane wildlife removal and professional exclusion throughout Fruitland and the surrounding Maryland area.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Bladder Tank Replacement", "Pressure Switch Tuning", "Well System Sanitization", "Constant Pressure Upgrades", "Emergency Well Service"].map((item) => (
+              {["Humane Squirrel Trapping", "Bite-Proof Exclusion", "Attic Damage Repair", "Insulation Sanitization", "Emergency Wildlife Service"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -54,15 +54,15 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  West Bloomfield Well Tank Replacement Pros<br />
-                  7001 Orchard Lake Rd<br />
-                  West Bloomfield, MI 48322
+                  Fruitland MD Squirrel Control Pros<br />
+                  201 E Main St<br />
+                  Fruitland, MD 21826
                 </address>
               </div>
               <div className="flex items-center gap-4">
                 <Phone className="w-6 h-6 text-amber-500 shrink-0" />
-                <a href="tel:8777921410" className="text-xl font-bold text-white hover:text-amber-500 transition-colors">
-                  (877) 792-1410
+                <a href="tel:3238801224" className="text-xl font-bold text-white hover:text-amber-500 transition-colors">
+                  (323) 880-1224
                 </a>
               </div>
             </div>
@@ -71,9 +71,12 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} West Bloomfield Well Tank Replacement Pros. All rights reserved. Professional Well Service West Bloomfield, MI.
+            © {new Date().getFullYear()} Fruitland MD Squirrel Control Pros. All rights reserved. Professional Wildlife Control Fruitland, MD.
           </p>
-          <div className="max-w-4xl mx-auto px-4">
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <p className="text-slate-400 text-xs mb-4">
+              For support or inquiries, please email LEASE MY NUMBER and link it to <a href="/lease-my-number" className="text-amber-500 hover:underline">LEASE PAGE</a>
+            </p>
             <p className="text-[10px] text-slate-600 leading-relaxed font-medium">
               This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.
             </p>

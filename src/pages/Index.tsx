@@ -2,44 +2,49 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import WellPressureTankInfo from "@/components/landing/WellPressureTankInfo";
+import SquirrelControlInfo from "@/components/landing/SquirrelControlInfo";
 import Contact from "@/components/landing/Contact";
-import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
+  const firmName = "Fruitland MD Squirrel Control Pros";
+  const phoneNumber = "(323) 880-1224";
+  const location = "Fruitland, MD";
+  const zipCodes = "21826";
+  const fullKeyword = "fruitland md squirrel control";
+
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Well pressure tank replacement West Bloomfield - West Bloomfield Well Tank Replacement Pros (877) 792-1410</title>
-        <meta name="description" content="Well pressure tank replacement West Bloomfield - Professional well pressure tank services in West Bloomfield, MI. Serving 48322, 48323, 48324, 48325. Expert diagnostics and rapid tank replacement. Call (877) 792-1410." />
-        <meta name="keywords" content="Well pressure tank replacement West Bloomfield, West Bloomfield well tank service, well tank installation MI, 48322 well repair, 48323 pressure tank replacement" />
-        <link rel="canonical" href="https://wellpressuretankreplacementwestbloomfield.com/" />
+        <title>{`${fullKeyword} - ${firmName} - ${phoneNumber} - ${zipCodes}`}</title>
+        <meta name="description" content={`${fullKeyword} - Professional squirrel control in Fruitland, MD. We offer expert trapping, exclusion, and damage repair. Serving ${zipCodes} and surrounding areas. Call ${phoneNumber} for expert help.`} />
+        <meta name="keywords" content="squirrel control Fruitland MD, squirrel removal 21826, wildlife exclusion Fruitland, 21826 squirrel trapping, attic squirrel repair Maryland" />
+        <link rel="canonical" href="https://fruitlandmdsquirrelcontrol.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "West Bloomfield Well Tank Replacement Pros",
+            "name": firmName,
             "image": "/1.jpeg",
-            "@id": "https://wellpressuretankreplacementwestbloomfield.com/",
-            "url": "https://wellpressuretankreplacementwestbloomfield.com/",
-            "telephone": "+18777921410",
+            "@id": "https://fruitlandmdsquirrelcontrol.com/",
+            "url": "https://fruitlandmdsquirrelcontrol.com/",
+            "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "7001 Orchard Lake Rd",
-              "addressLocality": "West Bloomfield",
-              "addressRegion": "MI",
-              "postalCode": "48322",
+              "streetAddress": "201 E Main St",
+              "addressLocality": "Fruitland",
+              "addressRegion": "MD",
+              "postalCode": "21826",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "42.5856",
-              "longitude": "-83.3324"
+              "latitude": "38.3154",
+              "longitude": "-75.6116"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,34 +59,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Well Pressure Tank Replacement",
+            "serviceType": "Squirrel Control and Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "West Bloomfield Well Tank Replacement Pros"
+              "name": firmName
             },
             "areaServed": [
-              { "@type": "City", "name": "West Bloomfield, MI" },
-              { "@type": "PostalCode", "name": "48322" },
-              { "@type": "PostalCode", "name": "48323" },
-              { "@type": "PostalCode", "name": "48324" },
-              { "@type": "PostalCode", "name": "48325" }
+              { "@type": "City", "name": "Fruitland, MD" },
+              { "@type": "PostalCode", "name": "21826" }
             ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "West Bloomfield Well Tank Services",
+              "name": "Squirrel Control Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pressure Tank Diagnosis" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Well Tank Replacement" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pressure Switch Calibration" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Humane Squirrel Trapping" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Exclusion" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Damage Restoration" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="Well pressure tank replacement West Bloomfield - West Bloomfield Well Tank Replacement Pros" />
-        <meta property="og:description" content="Professional well pressure tank replacement in West Bloomfield, MI. Fast diagnostics and guaranteed installation. Call (877) 792-1410." />
+        <meta property="og:title" content={`${fullKeyword} - ${firmName}`} />
+        <meta property="og:description" content="Professional squirrel removal and exclusion in Fruitland, MD. Safe, humane, and guaranteed results. Call (323) 880-1224." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://wellpressuretankreplacementwestbloomfield.com/" />
+        <meta property="og:url" content="https://fruitlandmdsquirrelcontrol.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -90,21 +92,20 @@ const Index = () => {
         <Hero
           title={
             <>
-              Well pressure tank replacement <br />
-              <span className="text-[#FFD700] drop-shadow-sm uppercase">West Bloomfield</span>
+              Fruitland MD <br />
+              <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Squirrel Control</span>
             </>
           }
-          subtitle="West Bloomfield's premier well service specialists. We provide rapid-response pressure tank diagnostics and professional replacement to restore your water pressure today — guaranteed."
+          subtitle="Fruitland's premier wildlife specialists. We provide rapid-response squirrel diagnostics and professional exclusion to secure your home today — guaranteed."
           image="/2.jpeg"
           overlayImage="/4.jpeg"
-          badge="WEST BLOOMFIELD WELL SERVICES"
-          phone="8777921410"
+          badge="FRUITLAND WILDLIFE SERVICES"
+          phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <WellPressureTankInfo />
+        <SquirrelControlInfo />
         <Contact />
-        <FAQ />
         <RandomLinks />
       </main>
       <Footer />

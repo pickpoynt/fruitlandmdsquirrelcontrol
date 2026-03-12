@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Puyallup Repiping Pros",
-  subtitle = "Expert residential repiping for Puyallup's historic and modern homes.",
-  image = "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
-  overlayImage = "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80",
-  phone = "8777921410",
-  badge = "PUYALLUP REPIPING PROS",
+  title = "Fruitland MD Squirrel Control",
+  subtitle = "Expert residential squirrel removal and exclusion for Fruitland homes.",
+  image = "/2.jpeg",
+  overlayImage = "/4.jpeg",
+  phone = "3238801224",
+  badge = "FRUITLAND SQUIRREL CONTROL PROS",
   features = [
-    { icon: Locate, text: "Precision Mapping" },
-    { icon: ShieldCheck, text: "Pierce County Ready" },
-    { icon: Activity, text: "Technical Restoration" }
+    { icon: Search, text: "Thorough Inspection" },
+    { icon: ShieldCheck, text: "Humane Removal" },
+    { icon: Locate, text: "Local Fruitland Experts" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -43,30 +43,30 @@ const Hero = ({
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-indigo-300 mb-8 animate-fade-in shadow-2xl uppercase tracking-widest text-[10px] font-bold">
-            <Zap className="w-4 h-4 text-indigo-400" />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-amber-300 mb-8 animate-fade-in shadow-2xl uppercase tracking-widest text-[10px] font-bold">
+            <Zap className="w-4 h-4 text-amber-400" />
             <span>{badge}</span>
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 animate-fade-in leading-[1.1] uppercase tracking-tight drop-shadow-2xl">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-[#FFD700] mb-8 animate-fade-in leading-[1.1] uppercase tracking-tight drop-shadow-2xl">
             {title}
           </h1>
 
-          <p className="text-xl text-slate-200 mb-10 animate-fade-in-delay-1 leading-relaxed max-w-2xl italic font-medium border-l-4 border-indigo-500/80 pl-6 backdrop-blur-[2px]">
+          <p className="text-xl text-slate-200 mb-10 animate-fade-in-delay-1 leading-relaxed max-w-2xl italic font-medium border-l-4 border-amber-500/80 pl-6 backdrop-blur-[2px]">
             {subtitle}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-indigo-600/90 hover:bg-indigo-600 text-white border border-indigo-400/30 h-14 px-8 text-lg font-bold shadow-2xl shadow-indigo-900/40 uppercase tracking-widest transition-all hover:scale-105 backdrop-blur-sm" asChild>
+            <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white border border-amber-400/30 h-14 px-8 text-lg font-bold shadow-2xl shadow-amber-900/40 uppercase tracking-widest transition-all hover:scale-105 backdrop-blur-sm" asChild>
               <a href={`tel:${phone}`} className="flex items-center gap-2">
-                <Phone className="w-5 h-5 text-indigo-200" />
+                <Phone className="w-5 h-5 text-amber-200" />
                 {formattedPhone}
               </a>
             </Button>
             <Button size="lg" variant="outline" className="bg-white/5 backdrop-blur-md border-white/20 text-white hover:bg-white/10 transition-all h-14 px-8 text-lg uppercase tracking-widest font-bold shadow-2xl" asChild>
               <a href="#contact" className="flex items-center gap-2">
                 Request Service
-                <ArrowRight className="w-5 h-5 text-indigo-400" />
+                <ArrowRight className="w-5 h-5 text-amber-400" />
               </a>
             </Button>
           </div>

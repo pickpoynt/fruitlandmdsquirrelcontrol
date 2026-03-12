@@ -1,8 +1,8 @@
 const links = [
-  { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
+  { text: "Bed Bug Heat Treatment Baltimore MD", url: "https://bedbugheattreatmentbaltimoremd.vercel.app/" },
+  { text: "Mold Remediation Eau Claire WI", url: "https://moldremediationeauclairewi.vercel.app/" },
+  { text: "Toxic Black Mold Cleanup Gulf Breeze", url: "https://toxicblackmoldcleanupgulfbreeze.vercel.app/" },
+  { text: "Pest Control Baton Rouge", url: "https://pestcontrolbatonrouge.vercel.app/" },
 ];
 
 const RandomLinks = () => {
